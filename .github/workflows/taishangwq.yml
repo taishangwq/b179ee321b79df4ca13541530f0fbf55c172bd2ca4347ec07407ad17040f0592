@@ -1,30 +1,24 @@
 name: taishangwq
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 2/6 * * *'
-
+    - cron: '41 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: taishangwq
         env:
-          mrcz751: ${{ secrets.mrcz751 }}
+          w168: ${{ secrets.w168 }}
         run: |
-          echo $mrcz751 | jq -r .xz79055 | /bin/bash
-          echo $zd5211 | jq -r .sye56 | /bin/bash
-          echo $xw615 | jq -r .q3093 | /bin/bash
-          echo $tjc8 | jq -r .yx9 | /bin/bash
-          echo $h16 | jq -r .jc62 | /bin/bash
-          echo $a336 | jq -r .fl96395 | /bin/bash
-          echo $zsk696 | jq -r .wmt13834 | /bin/bash
-          echo $m4214 | jq -r .q943 | /bin/bash
-          echo $combt9 | jq -r .lcs516 | /bin/bash
-          echo $fcxi4 | jq -r .muksn83 | /bin/bash
-          echo $oyzj10 | jq -r .ev37 | /bin/bash
-          echo $wrkz7 | jq -r .izf9 | /bin/bash
+          echo $w168 | jq -r .ljvc5635 | /bin/bash
+          echo $cay9 | jq -r .sj914 | /bin/bash
+          echo $fgnxt1763 | jq -r .wms193 | /bin/bash
+          echo $uqgz9808 | jq -r .omqix51731 | /bin/bash
+          echo $avcoa53495 | jq -r .hri65812 | /bin/bash
+          echo $pucud3159 | jq -r .nztyv850 | /bin/bash
+          echo $ys5 | jq -r .pmdq074 | /bin/bash
+          echo $vtgk944 | jq -r .npnd7495 | /bin/bash
+          echo $n59861 | jq -r .n5345 | /bin/bash
 
